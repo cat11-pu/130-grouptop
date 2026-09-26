@@ -1,0 +1,14 @@
+{
+  "limit_error_code": "E_BAD_LIMIT",
+  "rows_error_code": "E_EMPTY_ROWS",
+  "keys": ["region", "kind"],
+  "limit": 3,
+  "rows": [
+    {"region": "east", "kind": "web", "value": 5},
+    {"region": "east", "kind": "web", "value": 7},
+    {"region": "west", "kind": "web", "value": 2},
+    {"region": "east", "kind": "app", "value": 1},
+    {"region": "west", "kind": "app", "value": 9},
+    {"region": "north", "kind": "web", "value": 4}
+  ]
+}
